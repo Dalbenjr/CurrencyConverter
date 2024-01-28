@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const Layout = (props) => {
   return (
     <React.Fragment>
-      <nav className="navbar navbar-light bg-light">
-        <div className="container d-flex justify-content-between">
+      <nav className="navbar navbar navbar-light bg-light">
+        <div className="container d-flex justify-content-between bg-dark">
           <h1 className="title">EasyRate Converter</h1>
           <Link to="/" className="navbar-brand mb-0 h1">Currency Exchange Rates</Link>
         </div>
