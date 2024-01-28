@@ -8,19 +8,19 @@
 }
 
 nav .navbar-brand {
-  color: white;
+  color: rgb(246, 245, 245);
   font-weight: bold;
   padding: 10px;
 }
 
 div .container {
   text-align: center;
-  background-color: #2c2d2d;
+  background-color: #eef3f3;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 5px 10px 18px #888888;
   border-radius: 10px;
-  color: white;
+  color: black;
 }
 
 small .text-secondary {
@@ -34,6 +34,9 @@ small .text-secondary {
   padding: 20px;
 }
 
+canvas .chartjs-render-monitor {
+  color: white;
+}
 
 footer {
   box-shadow: 5px 10px 18px #888888;
